@@ -40,13 +40,13 @@ public class GameBorderController implements Initializable {
 
 		switch (rmi.getText()) {
 		case "Easy":
-			eGD = eGameDifficulty.EASY;
+			eGD = eGameDifficulty.Easy;
 			break;
-		case " Medium":
-			eGD = eGameDifficulty.MEDIUM;
+		case "Medium":
+			eGD = eGameDifficulty.Medium;
 			break;
 		case "Hard":
-			eGD = eGameDifficulty.HARD;
+			eGD = eGameDifficulty.Hard;
 			break;
 		}
 		return eGD;
